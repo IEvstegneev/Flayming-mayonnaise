@@ -20,4 +20,6 @@ namespace FuelAccounting.DataAccess
         public int EquipmentId { get; set; }
 
     }
+
+
 }

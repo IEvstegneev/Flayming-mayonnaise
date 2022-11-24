@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialAccounting.API", "MaterialStorage.API\MaterialAccounting.API.csproj", "{37EC24FC-57DB-4F90-9727-699F088A9749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialAccounting.API", "MaterialAccounting.API\MaterialAccounting.API.csproj", "{37EC24FC-57DB-4F90-9727-699F088A9749}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialStorage.DataAccess", "MaterialStorage.DataAccess\MaterialStorage.DataAccess.csproj", "{90588F2E-41A7-48E9-83DA-BA1184C7D6E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialAccounting.DataAccess", "MaterialAccounting.DataAccess\MaterialAccounting.DataAccess.csproj", "{90588F2E-41A7-48E9-83DA-BA1184C7D6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialAccounting.DataAccess.Postgres", "MaterialAccounting.DataAccess.Postgres\MaterialAccounting.DataAccess.Postgres.csproj", "{29A528F2-DDFF-4252-9144-A73A97A49EB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{90588F2E-41A7-48E9-83DA-BA1184C7D6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90588F2E-41A7-48E9-83DA-BA1184C7D6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90588F2E-41A7-48E9-83DA-BA1184C7D6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A528F2-DDFF-4252-9144-A73A97A49EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A528F2-DDFF-4252-9144-A73A97A49EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A528F2-DDFF-4252-9144-A73A97A49EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A528F2-DDFF-4252-9144-A73A97A49EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

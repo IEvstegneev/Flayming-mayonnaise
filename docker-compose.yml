@@ -1,0 +1,13 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  MaterialAccounting_db:
+    container_name: MaterialAccounting_db
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: mapass
+    ports: 
+      - 2432:5432
